@@ -1,7 +1,8 @@
  int main(){
 
-  int zaka = cal_age(1987);
-  print("My name is Adjai, my age is $zaka ");
+  int dob = 1987;
+  cal_age(dob);
+  print("My name is Adjai, my age is ${cal_age(dob)} ");
 
 return 0;
 
